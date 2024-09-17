@@ -2,12 +2,17 @@
 A summary of my experience and work.
 
 ## TODO
-- [  ] basic setup
-- [  ] homepage
+- [ x ] deployment
+- [ x ] setup img server w/ uploadthing
+- [ x ] dev environment setup, eslint, prettier, configs
+- [ x ] intro
 - [  ] experience
 - [  ] projects
 - [  ] contact
-- [  ] deployment
+- [  ] setup chrisjiang.me domain
+- [  ] add graphs
+- [  ] hobbies
+- [  ] louise
 
 ## Framework
 
