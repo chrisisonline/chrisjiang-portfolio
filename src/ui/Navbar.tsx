@@ -16,7 +16,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="bg-p-transparent sticky top-8 flex min-w-48 flex-col gap-4 rounded-xl p-6">
+    <nav className="sticky top-8 flex min-w-48 flex-col gap-4 rounded-xl bg-p-transparent p-6">
       <h2>Menu</h2>
       <Link href="#">Intro</Link>
       <Link href="#experience">Experience</Link>

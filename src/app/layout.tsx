@@ -27,7 +27,7 @@ export default function RootLayout({
       lang="en"
       className={`${aleo.variable} ${montserrat.variable} text-primary`}
     >
-      <body className="bg-cream flex flex-col lg:mx-44 lg:my-16">
+      <body className="flex flex-col bg-cream lg:mx-44 lg:my-16">
         <h1 className="lg:mb-16">Chris Jiang | Portfolio & CV</h1>
         <div className="flex items-start gap-16">
           <Navbar />
