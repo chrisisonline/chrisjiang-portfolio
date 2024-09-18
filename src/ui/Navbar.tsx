@@ -16,12 +16,13 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="sticky top-8 flex min-w-48 flex-col gap-4 rounded-xl bg-p-transparent p-6">
+    <nav className="sticky top-8 flex min-w-48 flex-col gap-4 rounded-xl bg-primary-10 p-6">
       <h2>Menu</h2>
       <Link href="#">Intro</Link>
+      <Link href="#skills">Skills</Link>
       <Link href="#experience">Experience</Link>
       <Link href="#projects">Projects</Link>
-      <Link href="#contacts">Contacts</Link>
+      <Link href="#contact  ">Contact</Link>
     </nav>
   )
 }

@@ -3,8 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    --color-cream: 255 251 243;
+    --color-primary: 0, 71, 58;
+  }
   h1, h2, h3 {
-    @apply font-serif font-black;
+    @apply font-serif font-black tracking-wide;
   }
   h1 {
     @apply text-5xl;
@@ -16,6 +20,17 @@
     @apply text-xl;
   }
   p {
-    @apply font-sans font-medium;
+    @apply font-sans font-normal;
+  }
+  a {
+    @apply underline;
+  }
+}
+
+@layer components {
+  button {
+    @apply px-4 py-2 bg-cream text-primary rounded-lg border border-primary
+    transition hover:-translate-x-0.5 hover:-translate-y-0.5
+    hover:shadow-[4px_4px_0_0_rgb(var(--color-primary))];
   }
 }

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Intro() {
   return (
-    <section id="intro" className="flex min-h-[500px] items-start gap-8">
+    <section id="intro" className="flex items-start gap-8">
       <Image
         src="https://utfs.io/f/4HL9EUy6VJbQf1lcApeI4aSqFU9Q1Hobh3Rk06gTVZtpOy2N"
         alt="profile picture of Chris Jiang"

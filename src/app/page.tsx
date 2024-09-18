@@ -1,17 +1,20 @@
+import Experience from "./Experience"
 import Intro from "./Intro"
+import Projects from "./Projects"
+import { FrontEnd, UIUX } from "./Skills"
 
 export default function HomePage() {
   return (
-    <main className="flex-grow-1 flex min-h-screen flex-col gap-10">
+    <main className="flex-grow-1 flex min-h-screen flex-col gap-14">
       <Intro />
-      <section id="experience" className="min-h-[500px]">
-        <h2>Experience</h2>
-      </section>
-      <section id="projects" className="min-h-[500px]">
-        <h2>Projects</h2>
-      </section>
-      <section id="contacts" className="min-h-[500px]">
-        <h2>Contacts</h2>
+      <div id="skills" className="flex gap-16">
+        <FrontEnd />
+        <UIUX />
+      </div>
+      <Experience />
+      <Projects />
+      <section id="contact" className="min-h-[500px]">
+        <h2>Contact</h2>
       </section>
     </main>
   )

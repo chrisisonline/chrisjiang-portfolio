@@ -7,12 +7,12 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-montserrat)", ...fontFamily.sans],
-        serif: ["var(--font-aleo)", ...fontFamily.serif],
+        serif: ["var(--font-glook)", ...fontFamily.serif],
       },
       colors: {
-        cream: "#FFFBF3",
-        primary: "#00473A",
-        "p-transparent": "rgba(0, 128, 105, 0.1)",
+        cream: "rgb(var(--color-cream))",
+        primary: "rgb(var(--color-primary))",
+        "primary-10": "rgba(var(--color-primary), 0.1)",
       },
     },
   },
