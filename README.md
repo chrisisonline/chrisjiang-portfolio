@@ -6,9 +6,9 @@ A summary of my experience and work.
 - [ x ] setup img server w/ uploadthing
 - [ x ] dev environment setup, eslint, prettier, configs
 - [ x ] intro
-- [  ] experience
-- [  ] projects
-- [  ] contact
+- [ x ] experience
+- [ x ] projects
+- [ x ] contact
 - [  ] setup chrisjiang.me domain
 - [  ] add graphs
 - [  ] hobbies

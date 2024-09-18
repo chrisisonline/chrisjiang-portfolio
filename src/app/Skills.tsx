@@ -10,7 +10,7 @@ function SkillCard({
   skills: string[]
 }) {
   return (
-    <section className="flex w-1/2 flex-col gap-5">
+    <div className="flex flex-col gap-5">
       <h2>{title}</h2>
       <p>{description}</p>
       <div className="flex flex-wrap gap-2">
@@ -18,7 +18,7 @@ function SkillCard({
           <Chip key={skill}>{skill}</Chip>
         ))}
       </div>
-    </section>
+    </div>
   )
 }
 
@@ -72,5 +72,14 @@ export function UIUX() {
         "MS Paint :)",
       ]}
     />
+  )
+}
+
+export default function Skills() {
+  return (
+    <section id="skills" className="flex flex-col gap-16 md:flex-row">
+      <FrontEnd />
+      <UIUX />
+    </section>
   )
 }

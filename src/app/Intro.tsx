@@ -2,13 +2,13 @@ import Image from "next/image"
 
 export default function Intro() {
   return (
-    <section id="intro" className="flex items-start gap-8">
+    <section id="intro" className="flex flex-col items-start gap-8 md:flex-row">
       <Image
         src="https://utfs.io/f/4HL9EUy6VJbQf1lcApeI4aSqFU9Q1Hobh3Rk06gTVZtpOy2N"
         alt="profile picture of Chris Jiang"
         width={240}
         height={240}
-        className="rounded-xl"
+        className="self-center rounded-xl"
         unoptimized
       />
       <div>

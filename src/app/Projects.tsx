@@ -94,10 +94,11 @@ function ProjectCard({
   project: IProject
 }) {
   return (
-    <div className="mb-16 flex gap-6">
+    <div className="mb-16 flex flex-col items-start gap-6 md:flex-row">
       <Image
         src={imageSrc}
         alt={title}
+        className="self-center"
         width={200}
         height={200}
         quality={100}
@@ -118,7 +119,7 @@ function ProjectCard({
 export default function Projects() {
   // eslint-disable-next-line @typescript-eslint/unbound-method
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse({
-    duration: 600,
+    duration: 800,
     collapsedHeight: 450,
   })
 

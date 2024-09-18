@@ -28,9 +28,11 @@ export default function RootLayout({
       lang="en"
       className={`${glook.variable} ${montserrat.variable} text-primary`}
     >
-      <body className="mx-auto flex flex-col bg-cream lg:my-16 lg:max-w-[1080px]">
-        <h1 className="lg:mb-16">Chris Jiang | Portfolio & CV</h1>
-        <div className="flex items-start gap-16">
+      <body className="mx-4 flex flex-col bg-cream lg:mx-auto lg:my-16 lg:max-w-[1080px]">
+        <h1 className="hidden md:inline-block lg:mb-16">
+          Chris Jiang | Portfolio & CV
+        </h1>
+        <div className="relative mb-60 mt-28 flex items-start gap-16 md:mt-0">
           <Navbar />
           {children}
         </div>
