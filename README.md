@@ -9,7 +9,7 @@ A summary of my experience and work.
 - [ x ] experience
 - [ x ] projects
 - [ x ] contact
-- [  ] setup chrisjiang.me domain
+- [ x ] setup chrisjiang.me domain
 - [  ] add graphs
 - [  ] hobbies
 - [  ] louise
