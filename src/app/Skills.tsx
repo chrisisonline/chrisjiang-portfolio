@@ -1,17 +1,30 @@
+"use client"
+
+import dynamic from "next/dynamic"
 import Chip from "~/ui/Chip"
+
+const FrontEndSkillChart = dynamic(() => import("~/ui/FrontEndSkillChart"), {
+  ssr: false,
+})
+const UIUXSkillChart = dynamic(() => import("~/ui/UIUXSkillChart"), {
+  ssr: false,
+})
 
 function SkillCard({
   title,
   description,
   skills,
+  children,
 }: {
   title: string
   description: string
   skills: string[]
+  children?: React.ReactNode
 }) {
   return (
     <div className="flex flex-col gap-5">
       <h2>{title}</h2>
+      {children}
       <p>{description}</p>
       <div className="flex flex-wrap gap-2">
         {skills.map((skill) => (
@@ -47,7 +60,9 @@ export function FrontEnd() {
         "WordPress",
         "Git",
       ]}
-    />
+    >
+      <FrontEndSkillChart />
+    </SkillCard>
   )
 }
 export function UIUX() {
@@ -71,7 +86,9 @@ export function UIUX() {
         "User Testing",
         "MS Paint :)",
       ]}
-    />
+    >
+      <UIUXSkillChart />
+    </SkillCard>
   )
 }
 

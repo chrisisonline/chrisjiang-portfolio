@@ -10,7 +10,7 @@ A summary of my experience and work.
 - [ x ] projects
 - [ x ] contact
 - [ x ] setup chrisjiang.me domain
-- [  ] add graphs
+- [ x ] add graphs
 - [  ] hobbies
 - [  ] louise
 

@@ -98,7 +98,7 @@ function ProjectCard({
       <Image
         src={imageSrc}
         alt={title}
-        className="self-center"
+        className="h-auto w-52 self-center"
         width={200}
         height={200}
         quality={100}
