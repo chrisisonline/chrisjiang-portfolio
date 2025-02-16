@@ -16,7 +16,7 @@ export default function Intro() {
       <p>
         I&apos;m a <strong>Toronto</strong> based{" "}
         <strong>Front-end Developer</strong> and <strong>UI/UX Designer</strong>
-        . My specialty is using my backgrounds together to bridge the gap
+        . My specialty is using these backgrounds together to bridge the gap
         between <strong>product design</strong> and{" "}
         <strong>software development</strong>. I completed my{" "}
         <strong>Bachelor&apos;s degree</strong> in{" "}

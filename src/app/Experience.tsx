@@ -19,10 +19,10 @@ const experiences: IExperience[] = [
     title: "Front-end Developer",
     company: "Phenotips",
     description: [
-      "Developed flagship PhenoTips tools using React, Typescript, MUI, Webpack, RESTY APIs on a Java Spring Boot application.",
-      "Contributed to the development of 130+ new features and the resolution of 100+ bugs, following Agile methodologies and utilizing JIRA and Confluence",
-      "Directed the design of new products, developing mock-ups and user interfaces in Figma and implementing support for screen readers to meet accessibility standards",
-      "Modernization of PhenoTips by incorporating micro-frontend architecture, CI/CD pipelines, Typescript, linting, and testing",
+      "Developed flagship PhenoTips tools using React, Typescript, MUI, Webpack, RESTY APIs on a Java Spring Boot application adopted by major healthcare providers and clinicians",
+      "Led the frontend development for a new patient intake application, evolving it from an initial single-client solution to a highly customizable platform now a key selling feature",
+      "Established a design system with mock-ups and UIs using Figma, and creating design guidelines for new products, contributing in more cohesive visual and user experiences across the platform",
+      "Spearheaded the modernization of PhenoTips through a micro-frontend architecture, CI/CD pipelines, and adoption of TypeScript, linting, and code formatting. This accelerated development cycles, reduced technical debt, and enabled faster delivery of new features",
     ],
     icon: "https://utfs.io/f/4HL9EUy6VJbQYpxjyoWT5OShcpJ9xIHkbU4BDfm0QW1qRnMA",
   },
@@ -173,7 +173,7 @@ export default function Experience() {
   // eslint-disable-next-line @typescript-eslint/unbound-method
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse({
     duration: 800,
-    collapsedHeight: 600,
+    collapsedHeight: 700,
   })
 
   return (

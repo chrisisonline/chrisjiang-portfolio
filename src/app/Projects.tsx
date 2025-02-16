@@ -101,6 +101,7 @@ function ProjectCard({
         className="h-auto w-52 self-center"
         width={200}
         height={200}
+        sizes="500px"
         quality={100}
       />
       <div className="flex flex-col gap-4">

@@ -29,6 +29,7 @@ function Links({ isMobile }: { isMobile?: boolean }) {
       <Link href="#skills">Skills</Link>
       <Link href="#experience">Experience</Link>
       <Link href="#projects">Projects</Link>
+      <Link href="#interests">Interests</Link>
       <Link href="#contact">Contact</Link>
     </>
   )
