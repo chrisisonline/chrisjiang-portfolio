@@ -15,7 +15,19 @@ interface IExperience {
 const experiences: IExperience[] = [
   {
     year: "Present",
-    date: "Jan 2022 - Present",
+    date: "June 2025 - Present",
+    title: "Front-end Developer",
+    company: "Micruity",
+    description: [
+      "Develop and maintain responsive React components, integrating them with REST APIs to display critical retirement data on a secure platform.",
+      "Translate UI/UX designs into a seamless and accessible user experience, collaborating with cross-functional teams to build the core infrastructure for retirement solutions.",
+      "Contribute to the company's mission of providing secure retirement by writing clean, testable code and participating in code reviews to ensure high performance and quality.",
+    ],
+    icon: "https://6p9q5j71we.ufs.sh/f/4HL9EUy6VJbQSrEacQu6kWbMjaTnKHAShUxi7IX0F4ENgq5s",
+  },
+  {
+    year: "2025",
+    date: "Jan 2022 - June 2025",
     title: "Front-end Developer",
     company: "Phenotips",
     description: [
