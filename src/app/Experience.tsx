@@ -19,9 +19,10 @@ const experiences: IExperience[] = [
     title: "Front-end Developer",
     company: "Micruity",
     description: [
-      "Develop and maintain responsive React components, integrating them with REST APIs to display critical retirement data on a secure platform.",
-      "Translate UI/UX designs into a seamless and accessible user experience, collaborating with cross-functional teams to build the core infrastructure for retirement solutions.",
-      "Contribute to the company's mission of providing secure retirement by writing clean, testable code and participating in code reviews to ensure high performance and quality.",
+      "Engineered frontend interfaces for a new class of retirement income products on the Micruity platform using React, TypeScript, and Node.js, backed by PostgreSQL, Redis, and AWS serverless architecture.",
+      "Led company-wide accessibility (WCAG 2.1) initiatives, creating a standardized auditing framework and component refactoring template adopted across all engineering teams.",
+      "Architected an automated design token pipeline to sync design tokens directly from Figma into the codebase, significantly cutting implementation time and streamlining QA regression testing.",
+      "Partnered with Product and Backend teams to integrate complex, secure data pipelines, ensuring seamless and SOC 2-compliant data exchange for mission-critical financial services.",
     ],
     icon: "https://6p9q5j71we.ufs.sh/f/4HL9EUy6VJbQSrEacQu6kWbMjaTnKHAShUxi7IX0F4ENgq5s",
   },
